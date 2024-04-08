@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <title>Credu</title>
+  <style>
+    @charset "utf-8";
+    html{
+      -webkit-appearance: none;
+      font-size:10px;
+    }
+
+    body{
+      font-family: "Noto Serif JP", serif;
+    }
+
+    .header{
+      border-bottom:solid;
+      padding:1px;
+    }
+
+    .header p {
+      font-size:4rem;
+      text-align: center;
+    }
+    p{
+      font-size: 5rem;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&family=Slackside+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+      <p>Credu</p>
+    </header>
+    <p>login</p>
+    <form method="post" action="<?= deployURL ?>">
+      <button type="submit" value="true" name="test">test</button>
+    </form>
+
+    <form method="post" action="<?= deployURL ?>">
+      <button type="submit" value="true" name="input">input</button>
+    </form>
+
+
+
+    <script>    
+
+    </script>
+</body>
+
+</html>
