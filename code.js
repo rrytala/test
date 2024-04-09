@@ -79,6 +79,7 @@ function processLogin(username,password){
 
 //ユーザー名とパスワードの一致を確認
 function loginCheck(){
+  alert("ok");
   // getCSV関数を呼び出して、コールバック関数を渡す
   getCSV(function(result) {
     // resultを使って必要な処理を行う
