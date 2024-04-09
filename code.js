@@ -69,17 +69,14 @@ function processLogin(username,password){
       }
     }
     if(flag){
-      console.log("correct");
-      alert("correct");
+      window.location.href = 'home.html';
     }else{
-      console.log("miss");
-      alert("miss");
-    }
+      alert('miss');
+    } 
 }
 
 //ユーザー名とパスワードの一致を確認
 function loginCheck(){
-  alert("ok");
   // getCSV関数を呼び出して、コールバック関数を渡す
   getCSV(function(result) {
     // resultを使って必要な処理を行う
