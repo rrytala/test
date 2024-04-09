@@ -25,8 +25,47 @@
       font-size:4rem;
       text-align: center;
     }
-    p{
-      font-size: 5rem;
+
+    .container {
+      width: 40%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-top:2rem;
+    }
+
+    .container {
+      margin-top:4rem;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 93%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
     }
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,20 +77,9 @@
     <header class="header">
       <p>Credu</p>
     </header>
-    <p>login</p>
-    <form method="post" action="<?= deployURL ?>">
-      <button type="submit" value="true" name="test">test</button>
-    </form>
+    <p>aa</p>
 
-    <form method="post" action="<?= deployURL ?>">
-      <button type="submit" value="true" name="input">input</button>
-    </form>
-
-
-
-    <script>    
-
-    </script>
+    <script src="code.js"></script>
 </body>
 
 </html>

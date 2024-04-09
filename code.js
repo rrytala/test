@@ -52,7 +52,6 @@ function convertCSVtoArray(str){
   for(var i = 0;i<tmp.length;i++){
     result[i] = tmp[i].split(',');
   }
-  alert(result);
   return result;
 }
 
@@ -63,7 +62,6 @@ function processLogin(username,password){
   var flag = false;
     for(var i=1;i<csvData.length;i++){
       if(username == csvData[i][0] && password == csvData[i][1]){
-        alert(csvData[i]);
         flag = true;
         break;
       }
