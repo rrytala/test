@@ -37,7 +37,12 @@
 
     h2 {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 2rem;
+      margin-top:2rem;
+    }
+
+    .container {
+      margin-top:4rem;
     }
 
     input[type="text"],
@@ -74,17 +79,13 @@
     </header>
     <div class="container" method="post" action="<?= deployURL ?>">
       <form>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <button type="submit" value="true" name="login">ログイン</button>
+        <input type="text" placeholder="Username" id="Username"/>
+        <input type="password" placeholder="Password" id="Password"/>
+        <button type="submit" value="true" name="login" id="login">ログイン</button>
       </form>
     </div>
 
-
-
-    <script>    
-
-    </script>
+    <script src="code.js"></script>
 </body>
 
 </html>
